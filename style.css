@@ -62,13 +62,19 @@ section h2{
     color: white;
 }
 
-section p{
+#menu-items a{
     text-align: center;
     background-color: azure;
     padding: 1rem;
 }
 
-section p a {
+#menu-items p{
+    text-align: center;
+    background-color: azure;
+    padding: 1rem;
+}
+
+#menu-items a {
     color: black;
 }
 
@@ -79,7 +85,25 @@ section p a {
 }
 
 #menu-items{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 4rem;
+}
+
+#menu-items>p{
+    color: black;
+    grid-column: span 2;
+}
+
+table{
+    color: white;
+    margin: 0 auto;
+}
+
+table a{
+    color: white;
+}
+#total{
+    color: white;
+    text-align: center;
 }

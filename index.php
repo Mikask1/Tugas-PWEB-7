@@ -25,8 +25,8 @@
         <section id="menu-panel">
             <h2>Menu</h2>
             <section id="menu-items">
-                <p><a href="form-daftar.php">Daftar Baru</a></p>
-                <p><a href="list-siswa.php">Pendaftar</a></p>
+                <a href="form-daftar.php">Daftar Baru</a>
+                <a href="list-siswa.php">Pendaftar</a>
                 <?php if (isset($_GET['status'])): ?>
                     <p>
                         <?php
